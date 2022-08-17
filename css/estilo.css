@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Electrolize&display=swap');
+
+html{
+  font-size: 62.5%;
+}
+
+header{
+  background-color: #17202A;
+}
+
+.padreHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  display: inline-block;
+}
+
+.logoBox{
+  display: flex;
+  width: 75px;
+  margin: 10px;
+  order: 1;
+  display: inline-block;
+}
+
+.secondPlace{
+display: flex;
+order: 2;
+display: inline-block;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  order: 3;
+  align-items: flex-end;
+  display: inline-block;
+}
+
+
+.menu {
+  color: #CACFD2;
+  font-family: 'Electrolize', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.displayRow{
+  display:flex;
+  display: inline-block;
+}
+
+.titleBoxes{
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+.menuBoxes{
+  display:flex;
+  border: 1px; color:#F8F9F9; border-style:outset;
+  margin: 0.5rem;
+  padding: 0.5em; 
+  display: inline-block;
+  position:relative;
+  order: 3;
+}
+
+.box p {
+  background-color:#797D7F;  
+  border: 4px; 
+  color: black ; 
+  font-weight: lighter;
+  border-style: double;
+  margin: 10px;
+  padding: 20px;
+  order: 3;
+  display: inline-block;
+}
+
+.titleBox{
+  width: 200px;
+  margin: 10px;
+}
+
+body {
+  background-color:#212F3C;
+}
+
+.darkGray {
+  color:darkgray;
+  font-family: 'Electrolize', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: justify;
+  text-decoration: none;
+}
+
+.imgBox {
+width: 20rem;
+margin: 3rem;
+display: inline-block;
+}
+
+.redesSociales{
+  list-style-type: none;
+  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.socialNetworks{
+  text-decoration: none;
+  text-align: center;
+  font-size: 4rem;
+  color: #CACFD2;
+  margin: 3rem;
+  padding: 3rem;
+}
+
+.padreProductos{
+  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.producto{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 3rem;
+  padding: 3rem;
+}
+
+.padreContacto{
+  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.contacto{
+  display: flex;
+  align-items: flex-start;
+  padding: 3rem;
+}
+
+.itemContacto{
+  padding: 0.1rem;
+  margin: 1rem;
+}
+
+.enlaceInterno{
+  color: darkgray;
+  text-decoration: none;
+}
