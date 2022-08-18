@@ -9,9 +9,10 @@ html{
   font-size: 62.5%;
 }
 
-header{
+/* header{
   background-color: #17202A;
-}
+  border-bottom: #948E99, 8px, solid;
+} */
 
 .padreHeader{
   display: flex;
@@ -30,9 +31,9 @@ header{
 }
 
 .secondPlace{
-display: flex;
-order: 2;
-display: inline-block;
+  display: flex;
+  order: 2;
+  display: inline-block;
 }
 
 nav ul{
@@ -42,7 +43,6 @@ nav ul{
   align-items: flex-end;
   display: inline-block;
 }
-
 
 .menu {
   color: #CACFD2;
@@ -70,10 +70,19 @@ nav ul{
   padding: 0.5em; 
   display: inline-block;
   position:relative;
+  height: 2rem;
+  width: 12rem;
+  text-align: center;
   order: 3;
   background: radial-gradient(#606c88, #3f4c6b);
+  transition: height 0.1s, width 0.1s;
 }
 
+.menuBoxes:hover {
+  background-color: #2E1437;
+  padding: 1.5rem;
+}
+ 
 .box p {
   background-color:#797D7F;  
   border: 4px; 
@@ -94,6 +103,11 @@ nav ul{
 body {
   background-color:#212F3C;
 }
+
+/* footer{
+  border-top: #948E99, 8px, solid;
+  background-color: #17202A;
+} */
 
 .darkGray {
   color:darkgray;
@@ -125,6 +139,12 @@ display: inline-block;
   color: #CACFD2;
   margin: 3rem;
   padding: 3rem;
+  transition: height 0.1s, width 0.1s;
+}
+
+.socialNetworks:hover {
+  background-color: #2E1437;
+  padding: 1.5rem;
 }
 
 .padreProductos{
@@ -192,12 +212,24 @@ display: inline-block;
   border-radius: 4px;
   width: 100%;
   font-size: 18px;
+  transition: height 0.1s, width 0.1s;
+}
+
+.itemContacto:hover {
+  background-color: #2E1437;
+  padding: 1.5rem;
 }
 
 .boton{
     background: radial-gradient(#606c88, #3f4c6b);
     margin: 0.5rem;
     text-align: center;
+    transition: all 0.1s;
+}
+
+.boton:hover {
+  background-color: #2E1437;
+  padding: 1.5rem;
 }
 
 .enlaceInterno{
