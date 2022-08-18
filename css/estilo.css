@@ -59,10 +59,8 @@ nav ul{
 }
 
 .titleBoxes{
-  padding: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  margin-right: 2rem;
+  padding: auto;
+  margin: auto;
 }
 
 .menuBoxes{
@@ -73,6 +71,7 @@ nav ul{
   display: inline-block;
   position:relative;
   order: 3;
+  background: radial-gradient(#606c88, #3f4c6b);
 }
 
 .box p {
@@ -149,19 +148,56 @@ display: inline-block;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-start;
-  flex-direction: row;
+  align-items: center;
+  flex-direction: column;
+  background: radial-gradient(#948E99, #2E1437);
+  width: 40rem;
+  /* padding: auto; */
+  margin: auto;
+  border-radius: 4px;
+  font-family: 'Electrolize', sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  font-size: 1.5rem;
+} 
+
+.centrado{
+  display: flex;
+  justify-content: center;
+  margin-bottom: auto;
+  margin-top: 1rem;
+  font-size: 2rem;
 }
 
-.contacto{
+/* .contacto{
   display: flex;
   align-items: flex-start;
+  display: inline-block;
   padding: 3rem;
-}
+  width: 100%;
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #1f53c5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+} */
 
 .itemContacto{
-  padding: 0.1rem;
-  margin: 1rem;
+  position: relative;
+  padding: auto;
+  margin: 0.5rem;
+  display: flex;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.boton{
+    background: radial-gradient(#606c88, #3f4c6b);
+    margin: 0.5rem;
+    text-align: center;
 }
 
 .enlaceInterno{
