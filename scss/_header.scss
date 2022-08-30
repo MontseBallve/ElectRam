@@ -1,0 +1,42 @@
+//Header HTML
+
+
+header {
+    background-color: darkslategray;
+    border-bottom: #948E99, 8px, solid;
+  }
+  
+  .padreHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    display: inline;
+  }
+  
+  .hUnoText, .hDosText {
+    font-weight: bold;
+    align-items: center;
+    position: relative;
+    top: 2rem;
+  }
+  
+  .logoBox {
+    display: flex;
+    width: 90px;
+    margin: 10px;
+    order: 1;
+    display: inline-block;
+  }
+  
+  .secondPlace {
+    display: flex;
+    order: 2;
+    display: inline-block;
+    align-items: flex-start;
+  }
+
+  .barraMenu {
+    background-color: #606c88;
+    border-style: outset;
+  }

@@ -66,11 +66,11 @@ header{
   border-style:outset;
 }
 
-.menuBoxes:hover {
+/* .menuBoxes:hover {
   background-color: #2E1437;
   padding: 1.5rem;
   transition: height 0.1s, width 0.1s;
-}
+} */
  
 .box p {
   background-color:#797D7F;  
@@ -84,13 +84,13 @@ header{
   display: inline-block;
 }
 
-.titleBox{
-  /* width: 200px; */
+/* .titleBox{
+  width: 200px;
   margin: 10rem;
   padding: 20rem;
   font-weight: bold;
   font-size: 20rem;
-}
+} */
 
 body {
   background-color:#212F3C;
@@ -111,11 +111,11 @@ footer{
   text-decoration: none;
 }
 
-.imgBox {
+/* .imgBox {
 width: 20rem;
 margin: 3rem;
 display: inline-block;
-}
+} */
 
 .redesSociales{
   list-style-type: none;
@@ -139,8 +139,6 @@ display: inline-block;
   /* background-color: #2E1437; */
   padding: 1.5rem;
   color:#CACFD2;
- 
-
 }
 
 .padreProductos{
@@ -247,16 +245,16 @@ display: inline-block;
   padding: 1.5rem;
 }
 
-.enlaceInterno{
+/* .enlaceInterno{
   color: darkgray;
   text-decoration: none;
-}
+} */
 
 
-.animaciones{
+/* .animaciones{
   animation-name: animaciones;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
   animation-duration: 2s;
   animation-delay: 1s;
-}
+} */

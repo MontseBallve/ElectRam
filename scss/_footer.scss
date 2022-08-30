@@ -1,0 +1,24 @@
+.redesSociales {
+    list-style-type: none;
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    color: #CACFD2;
+  }
+  
+  .socialNetworks {
+    text-decoration: none;
+    text-align: center;
+    font-size: 10rem;
+    color: #CACFD2;
+    margin: 3rem;
+    padding: 3rem;
+    transition: height 0.1s, width 0.1s;
+  
+    &:hover {
+      /* background-color: #2E1437; */
+      padding: 1.5rem;
+      color: #CACFD2;
+    }
+  }
+

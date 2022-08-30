@@ -1,0 +1,119 @@
+// Main Inicio
+
+.carrusel {
+    height: 30rem;
+    object-fit: cover;
+  }
+
+  .box p {
+    background-color:#797D7F;  
+    border: 4px; 
+    color: black ; 
+    font-weight: lighter;
+    border-style: double;
+    margin: 10px;
+    padding: 20px;
+    order: 3;
+    display: inline-block;
+  }
+
+  // Main Productos
+
+  .titleBoxes {
+    padding: auto;
+    margin: auto;
+  }
+  
+  .padreProductos {
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .producto {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #CACFD2;
+    width: 30rem;
+    height: 40rem;
+    color: #000;
+    border: #000, 1px, solid;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  // Main Webinars
+
+  .cajasWebinars{
+    margin: 2rem;
+    padding: 5rem;
+    background-color:#CACFD2;
+    width: 40rem;
+    height: 30rem;
+    color: #000;
+    border:#000, 1px, solid; 
+    font-size: 12px;
+    text-align: left; 
+  }
+
+  // Main Contacto
+
+  .padreContacto {
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background: radial-gradient(#948E99, #2E1437);
+    width: 40rem;
+    padding: auto;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'Electrolize', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    font-size: 1.5rem;
+    position: relative;
+    top: 3rem;
+  }
+  
+  .centrado {
+    display: flex;
+    justify-content: center;
+    margin-bottom: auto;
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  
+  .itemContacto {
+    position: relative;
+    padding: auto;
+    margin: 0.5rem;
+    display: flex;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 18px;
+    transition: height 0.1s, width 0.1s;
+  
+    &:hover {
+      background-color: #2E1437;
+      padding: 1.5rem;
+    }
+  }
+  
+  .boton {
+    background: radial-gradient(#606c88, #3f4c6b);
+    margin: 0.5rem;
+    text-align: center;
+    transition: all 0.1s;
+  
+    &:hover {
+      background-color: #2E1437;
+      padding: 1.5rem;
+    }
+  }
+
