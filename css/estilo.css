@@ -52,7 +52,8 @@ header{
 }
 
 .carrusel{
-  height: 40rem;
+  height: 35rem;
+  object-fit: cover;
 }
 
 .titleBoxes{
