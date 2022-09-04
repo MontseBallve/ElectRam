@@ -1,0 +1,17 @@
+@mixin parrafos {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.parrafosConEstilo {
+    @include parrafos;
+}
+
+@mixin parrafoConParametros ($size, $alineacion) {
+    font-size: $size;
+    text-align: $alineacion;
+}
+
+.parrafosYParamtros{
+    @include parrafoConParametros (5rem, right)
+}

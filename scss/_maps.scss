@@ -1,0 +1,14 @@
+$mapRedesSociales: (Instagram: #948E99, Facebook: #606c88);
+
+@each $redSocial, $color in $mapRedesSociales{
+    .#{$redSocial}{
+        color: $color;
+    }
+}
+
+$estilo: (color: #606c88, tamfuente: 3rem);
+
+.style {
+    background-color: map-get ($estilo, color);
+    font-size: map-get ($estilo, tamfuente);
+}

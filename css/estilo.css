@@ -65,12 +65,6 @@ header{
   background-color:#606c88; 
   border-style:outset;
 }
-
-/* .menuBoxes:hover {
-  background-color: #2E1437;
-  padding: 1.5rem;
-  transition: height 0.1s, width 0.1s;
-} */
  
 .box p {
   background-color:#797D7F;  
@@ -83,14 +77,6 @@ header{
   order: 3;
   display: inline-block;
 }
-
-/* .titleBox{
-  width: 200px;
-  margin: 10rem;
-  padding: 20rem;
-  font-weight: bold;
-  font-size: 20rem;
-} */
 
 body {
   background-color:#212F3C;
@@ -111,12 +97,6 @@ footer{
   text-decoration: none;
 }
 
-/* .imgBox {
-width: 20rem;
-margin: 3rem;
-display: inline-block;
-} */
-
 .redesSociales{
   list-style-type: none;
   display: inline-block;
@@ -136,7 +116,6 @@ display: inline-block;
 }
 
 .socialNetworks:hover {
-  /* background-color: #2E1437; */
   padding: 1.5rem;
   color:#CACFD2;
 }
@@ -202,21 +181,6 @@ display: inline-block;
   font-size: 2rem;
 }
 
-/* .contacto{
-  display: flex;
-  align-items: flex-start;
-  display: inline-block;
-  padding: 3rem;
-  width: 100%;
-  background-color: #24303c;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 20px;
-  border: 1px solid #1f53c5;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-} */
-
 .itemContacto{
   position: relative;
   padding: auto;
@@ -245,16 +209,3 @@ display: inline-block;
   padding: 1.5rem;
 }
 
-/* .enlaceInterno{
-  color: darkgray;
-  text-decoration: none;
-} */
-
-
-/* .animaciones{
-  animation-name: animaciones;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-duration: 2s;
-  animation-delay: 1s;
-} */

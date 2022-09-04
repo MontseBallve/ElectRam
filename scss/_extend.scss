@@ -1,0 +1,10 @@
+.primerEstilo{
+    font-family: 'Electrolize', sans-serif;
+    font-weight: bold;
+    text-align: right;
+}
+
+.segundoEstilo{
+    font-size: 3.5rem;
+    @extend .primerEstilo;
+}
