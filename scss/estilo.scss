@@ -6,8 +6,12 @@
 @import "extend";
 @import "mixin";
 
+.favicon{
+  background-color: $color-principal;
+}
+
 body {
-    background-color: $color-principal;
+  background-color: $color-principal;
   }
 
 .darkGray {
