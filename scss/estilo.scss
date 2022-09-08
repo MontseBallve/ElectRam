@@ -7,7 +7,7 @@
 @import "mixin";
 
 .favicon{
-  background-color: $color-principal;
+ filter: invert(15%) sepia(45%) saturate(428%) hue-rotate(166deg) brightness(92%) contrast(92%);
 }
 
 body {

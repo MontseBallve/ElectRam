@@ -19,6 +19,14 @@ header {
     align-items: center;
     position: relative;
     top: 2rem;
+    text-decoration: none;
+    
+    a:link{
+      color: darkgray;
+    }
+    a:visited{
+      color: darkgray;
+    }
   }
   
   .logoBox {
@@ -40,3 +48,5 @@ header {
     background-color: #606c88;
     border-style: outset;
   }
+
+  
