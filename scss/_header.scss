@@ -2,7 +2,7 @@
 
 header {
     background-color: darkslategray;
-    border-bottom: #948E99, 8px, solid;
+    border-bottom: #948E99, 5rem, solid;
   }
   
   .padreHeader {
@@ -18,7 +18,7 @@ header {
     order: 2;
     display: inline-block;
     align-items: flex-start;
-  }
+    }
   
   .hUnoText, .hDosText {
     font-weight: bold;
@@ -42,11 +42,12 @@ header {
     order: 1;
     display: inline-block;
   }
-  
 
   .barraMenu {
     background-color: #606c88;
     border-style: outset;
   }
+
+ 
 
   

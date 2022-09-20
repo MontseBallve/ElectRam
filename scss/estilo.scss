@@ -1,26 +1,47 @@
 @import "variables";
-@import "header";
-@import "main";
-@import "footer";
-@import "maps";
-@import "extend";
-@import "mixin";
 
-.favicon{
- filter: invert(15%) sepia(45%) saturate(428%) hue-rotate(166deg) brightness(92%) contrast(92%);
+html{
+  height: 100%;
+  // font-size: $tamano-fuente;
 }
 
 body {
+  width: 100%;
+  min-height: 100vh;
   background-color: $color-principal;
+
+  .whatsApp{
+    left: 70rem;
+    top: 2rem;
+    text-decoration: none;
+    font-size: 4rem;
+    transition: height 0.1s, width 0.1s;
+    // position: fixed;
+
+    &:hover {
+      padding: 1.5rem;
+    }
   }
+}
 
 .darkGray {
-    color:darkgray;
-    font-family: $tipo-de-fuente;
-    font-size: $tamano-fuente;
-    font-weight: bold;
-    line-height: 1.5;
-    text-align: justify;
-    text-decoration: none;
-  }
+  color: darkgray;
+  font-family: $tipo-de-fuente;
+  font-size: $tamano-fuente;
+  font-weight: bold;
+  line-height: 1.5rem;
+  text-align: justify;
+  text-decoration: none;
+}
+
+@import "header";
+@import "main";
+@import "footer";
+@import "extend";
+@import "mixin";
+
+.favicon {
+  filter: invert(15%) sepia(45%) saturate(428%) hue-rotate(166deg)
+    brightness(92%) contrast(92%);
+}
 
