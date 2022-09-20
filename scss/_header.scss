@@ -9,22 +9,28 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-content: space-between;
-    display: inline;
+    
+  }
+  .firstPlace{
+    display: flex;
+    align-items: center;
+    h1{
+      font-size: 1.25rem;
+    }
+    h2{
+      font-size: 1.15rem;
+    }
   }
 
   .secondPlace {
     display: flex;
-    order: 2;
-    display: inline-block;
-    align-items: flex-start;
+    align-items: center;
     }
   
   .hUnoText, .hDosText {
     font-weight: bold;
     align-items: center;
-    position: relative;
-    top: 2rem;
+    position: relative;    
     text-decoration: none;
     
     a:link{
@@ -37,10 +43,12 @@ header {
   
   .logoBox {
     display: flex;
-    width: 90px;
+    width: 70px;
     margin: 10px;
-    order: 1;
     display: inline-block;
+  }
+  .chango{
+    width: 40px;
   }
 
   .barraMenu {

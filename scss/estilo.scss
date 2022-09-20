@@ -10,17 +10,12 @@ body {
   min-height: 100vh;
   background-color: $color-principal;
 
-  .whatsApp{
-    left: 70rem;
-    top: 2rem;
+  .whatsApp{    
     text-decoration: none;
-    font-size: 4rem;
+    font-size: 2rem;
     transition: height 0.1s, width 0.1s;
     // position: fixed;
 
-    &:hover {
-      padding: 1.5rem;
-    }
   }
 }
 
