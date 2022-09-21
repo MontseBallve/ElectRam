@@ -13,7 +13,7 @@ body {
     position: fixed;
     text-decoration: none;
     font-size: 4rem;
-    margin: 2rem; }
+    margin: 1rem; }
 
 .darkGray {
   color: darkgray;
@@ -34,7 +34,7 @@ body {
   justify-content: space-between;
   border-bottom: #D3D3D3, 5rem, solid; }
   .padreHeader .firstPlace {
-    margin: 2rem;
+    margin: 1rem;
     padding: 0;
     display: flex;
     flex-direction: row; }
@@ -43,7 +43,7 @@ body {
     flex-direction: column;
     list-style: none;
     color: #D3D3D3;
-    margin: 2rem; }
+    margin: 1rem; }
     .padreHeader .secondPlace h1 {
       font-size: 3rem;
       margin-bottom: 0%; }
@@ -80,16 +80,15 @@ body {
     font-size: 4rem;
     color: #D3D3D3;
     transition: height 0.1s, width 0.1s;
-    margin: 2rem; }
+    margin: 1rem; }
   .padreHeader .barraMenu {
     height: 3rem;
     background-color: #D3D3D3;
     display: flex;
     display: inline;
-    border-bottom: #000;
-    border-top: #000;
     display: flex;
-    align-items: flex-end; }
+    align-items: flex-end;
+    margin-bottom: 4rem; }
     .padreHeader .barraMenu .colorNav {
       background-color: #D3D3D3;
       color: #000;
@@ -100,7 +99,6 @@ main {
   height: 33%; }
 
 .carrusel {
-  margin-top: 2rem;
   height: 35rem;
   object-fit: cover; }
 
@@ -119,7 +117,7 @@ main {
 .titleBoxes {
   padding: auto;
   margin: auto;
-  margin-top: 4rem; }
+  margin: 4rem; }
 
 .padreProductos {
   display: inline-block;
