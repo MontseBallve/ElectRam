@@ -1,84 +1,82 @@
 //Header HTML
 
-header {
-    background-color: darkslategray;
-    border-bottom: #948E99, 5rem, solid;
-  }
-  
+.encabezado {
+height:12.5rem;
+background-color: darkslategray;
+}
   .padreHeader {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
-  }
-  .firstPlace{
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+    border-bottom: $color-secundario, 5rem, solid;
 
-    h1{
-      font-size: 3rem;
-      margin-bottom: 0%;
-    }
-
-    h2{
-      font-size: 2rem;
-      margin-top: 0%;
-    }
-  }
-
-  .secondPlace {
-    display: flex;
-    display:inline-block;
-    justify-content:flex-end;
-    list-style: none;
-    // align-items: center;
-    color: $color-secundario;
-    // margin-right: 3rem;
-    }
+    .firstPlace{
+      margin: 0;
+      padding: 0;
   
-  .hUnoText, .hDosText {
-    font-weight: bold;
-    align-items: center;
-    position: relative;    
-    text-decoration: none;
-    color: $color-secundario;  
-    
-    a:link{
-      color: $color-secundario;
-    }
-
-    a:visited{
-      color: $color-secundario;
-    }
-
-    &:hover {
-      color: $color-secundario;
-      padding: 1.5rem;
-    }
-  }
+      h1{
+        font-size: 3rem;
+        margin-bottom: 0%;
+      }
   
-  .logoBox {
-    display: flex;
-    width: 7rem;
-    margin: 2rem;
-    transition: height 0.1s, width 0.1s;
-    filter: invert(80%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(107%) contrast(92%);
-
-    &:hover {
-      color: $color-secundario;
-      padding: 3.5rem;
+      h2{
+        font-size: 2rem;
+        margin-top: 0%;
+      }
     }
-  }
-  .chango{
-    width: 4rem;
-    margin: 1rem;
-    filter: invert(80%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(107%) contrast(92%);
-  }
 
+    .secondPlace {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      color: $color-secundario;
+      }
 
-// Menú de navegación
+      .hUnoText, .hDosText {
+        font-weight: bold;
+        position: relative;    
+        text-decoration: none;
+        color: $color-secundario;  
+        
+        a:link{
+          color: $color-secundario;
+        }
+    
+        a:visited{
+          color: $color-secundario;
+        }
+    
+        &:hover {
+          color: $color-secundario;
+          padding: 1.5rem;
+        }
+      }
+
+      .logoBox {
+        width: 7rem;
+        filter: invert(80%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(107%) contrast(92%);
+        list-style-type: none;
+        display: inline-block;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        transition: height 0.1s, width 0.1s;
+        padding: 0;
+        margin: 0;
+    
+        &:hover {
+          color: $color-secundario;
+        }
+      }
+      .chango{
+        filter: invert(80%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(107%) contrast(92%);
+        text-decoration: none;
+        font-size: 4rem;
+        color: $color-secundario;
+        transition: height 0.1s, width 0.1s;
+      }
+
+      // Menú de navegación
 
   .barraMenu {
     height:3rem; 
@@ -87,14 +85,21 @@ header {
     display: inline;
     border-bottom: #000;
     border-top: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;  
+   
+    .colorNav{
+      background-color:$color-secundario;
+      color: #000;
+      font-size: 1.6rem;
+      margin-right: 1rem;
+     }  
   }
 
- .colorNav{
-  background-color:$color-secundario;
-  color: #000;
-  font-size: 1.6rem;
-  margin-right: 1rem;
- }  
+
+
+
 
  
 
