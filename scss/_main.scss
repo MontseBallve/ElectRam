@@ -28,6 +28,7 @@ main{
   .titleBoxes {
     padding: auto;
     margin: auto;
+    margin-top: 4rem;
   }
   
   .padreProductos {
@@ -65,6 +66,10 @@ main{
     text-align: left; 
   }
 
+  // Main Ubicación
+
+
+
   // Main Contacto
 
   .padreContacto {
@@ -78,6 +83,8 @@ main{
     width: 40rem;
     padding: auto;
     margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
     border-radius: 4px;
     font-family: 'Electrolize', sans-serif;
     color: white;
