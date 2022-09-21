@@ -12,7 +12,8 @@ body {
   body .whatsApp {
     position: fixed;
     text-decoration: none;
-    font-size: 4rem; }
+    font-size: 4rem;
+    margin: 2rem; }
 
 .darkGray {
   color: darkgray;
@@ -23,7 +24,7 @@ body {
   text-align: justify;
   text-decoration: none; }
 
-header {
+.encabezado {
   height: 12.5rem;
   background-color: darkslategray; }
 
@@ -33,24 +34,24 @@ header {
   justify-content: space-between;
   border-bottom: #D3D3D3, 5rem, solid; }
   .padreHeader .firstPlace {
+    margin: 2rem;
+    padding: 0;
     display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0; }
-    .padreHeader .firstPlace h1 {
-      font-size: 3rem;
-      margin-bottom: 0%; }
-    .padreHeader .firstPlace h2 {
-      font-size: 2rem;
-      margin-top: 0%; }
+    flex-direction: row; }
   .padreHeader .secondPlace {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     list-style: none;
-    color: #D3D3D3; }
+    color: #D3D3D3;
+    margin: 2rem; }
+    .padreHeader .secondPlace h1 {
+      font-size: 3rem;
+      margin-bottom: 0%; }
+    .padreHeader .secondPlace h2 {
+      font-size: 2rem;
+      margin-top: 0%; }
   .padreHeader .hUnoText, .padreHeader .hDosText {
     font-weight: bold;
-    align-items: center;
     position: relative;
     text-decoration: none;
     color: #D3D3D3; }
@@ -68,7 +69,6 @@ header {
     display: inline-block;
     display: flex;
     justify-content: flex-end;
-    flex-direction: row;
     transition: height 0.1s, width 0.1s;
     padding: 0;
     margin: 0; }
@@ -78,25 +78,29 @@ header {
     filter: invert(80%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(107%) contrast(92%);
     text-decoration: none;
     font-size: 4rem;
-    color: #D3D3D3; }
-
-.barraMenu {
-  height: 3rem;
-  background-color: #D3D3D3;
-  display: flex;
-  display: inline;
-  border-bottom: #000;
-  border-top: #000; }
-  .barraMenu .colorNav {
+    color: #D3D3D3;
+    transition: height 0.1s, width 0.1s;
+    margin: 2rem; }
+  .padreHeader .barraMenu {
+    height: 3rem;
     background-color: #D3D3D3;
-    color: #000;
-    font-size: 1.6rem;
-    margin-right: 1rem; }
+    display: flex;
+    display: inline;
+    border-bottom: #000;
+    border-top: #000;
+    display: flex;
+    align-items: flex-end; }
+    .padreHeader .barraMenu .colorNav {
+      background-color: #D3D3D3;
+      color: #000;
+      font-size: 1.6rem;
+      margin-right: 1rem; }
 
 main {
   height: 33%; }
 
 .carrusel {
+  margin-top: 2rem;
   height: 35rem;
   object-fit: cover; }
 
@@ -211,7 +215,10 @@ footer {
   text-align: center;
   font-size: 4rem;
   color: #D3D3D3;
-  margin: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   transition: height 0.1s, width 0.1s; }
   .socialNetworks:hover {
     /* background-color: #2E1437; */

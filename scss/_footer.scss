@@ -10,6 +10,7 @@ footer{
     display: flex;
     justify-content: flex-start;
     color: $color-secundario;
+    // margin: 2rem;
   }
   
   .socialNetworks {
@@ -17,7 +18,10 @@ footer{
     text-align: center;
     font-size: 4rem;
     color: $color-secundario;
-    margin: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     transition: height 0.1s, width 0.1s;
   
     &:hover {
