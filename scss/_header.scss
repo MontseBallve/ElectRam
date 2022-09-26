@@ -1,103 +1,133 @@
 //Header HTML
 
 .encabezado {
-height:12.5rem;
+height: 12.5rem;
 background-color: darkslategray;
+width: 100%;
+
+.barraMenu {
+  height:3rem; 
+  width: 100%;
+  bottom:0.5rem;
+  background-color:$color-secundario;
+  display: flex;
+  display: inline;
+  color: #000;
+  font-size: 1.6rem;
+  margin:0;
+  padding: 0;
+}
 }
   .padreHeader {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-bottom: $color-secundario, 5rem, solid;
+    list-style: none;
+    font-size: 4rem;
 
-    .firstPlace{
-      margin: 1rem;
-      padding: 0;
+    .logoyTitulo{
       display: flex;
       flex-direction: row;
-    }
+      justify-content: flex-start;
+      align-items: flex-start;
+      font-size: 4rem;
 
-    .secondPlace {
-      display: flex;
-      flex-direction: column;
-      list-style: none;
-      color: $color-secundario;
-      margin: 1rem;
-
-      h1{
-        font-size: 3rem;
-        margin-bottom: 0%;
+      .firstPlace{
+        margin: 0;
+        padding: 0;
       }
   
-      h2{
-        font-size: 2rem;
-        margin-top: 0%;
-      }
-      }
-
-      .hUnoText, .hDosText {
-        font-weight: bold;
-        position: relative;    
-        text-decoration: none;
-        color: $color-secundario;  
-        
-        a:link{
-          color: $color-secundario;
-        }
-    
-        a:visited{
-          color: $color-secundario;
-        }
-    
-        &:hover {
-          color: $color-secundario;
-          padding: 1.5rem;
-        }
-      }
-
-      .logoBox {
-        width: 7rem;
-        filter: invert(80%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(107%) contrast(92%);
-        list-style-type: none;
-        display: inline-block;
+      .secondPlace {
         display: flex;
-        justify-content: flex-end;
-        transition: height 0.1s, width 0.1s;
-        padding: 0;
-        margin: 0;
-    
-        &:hover {
-          color: $color-secundario;
-        }
-      }
-      .chango{
-        filter: invert(80%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(107%) contrast(92%);
-        text-decoration: none;
-        font-size: 4rem;
+        flex-direction: column;
+        list-style: none;
         color: $color-secundario;
+        margin: 0;
+        margin-top: 3rem;
+        display: inline-block;
+  
+        h1{
+          font-size: 3rem;
+          margin-bottom: 0%;
+        }
+    
+        h2{
+          font-size: 2rem;
+          margin-top: 0%;
+        }
+        }
+  
+        .hUnoText, .hDosText {
+          font-weight: bold;
+          position: relative;    
+          text-decoration: none;
+          color: $color-secundario;
+          
+          a:link{
+            color: $color-secundario;
+          }
+      
+          a:visited{
+            color: $color-secundario;
+          }
+      
+          &:hover {
+            color: $color-secundario;
+            padding: 1.5rem;
+          }
+        }
+  
+        @media (max-width: 640px){
+          h1 {margin:4rem}
+          h2 {display: none;}
+        }
+
+    .iconosWAyChango{
+      list-style: none;
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      
+       .chango{
+        filter: invert(80%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(107%) contrast(92%);
+        color:$color-secundario;
+        display: inline;
+        text-decoration: none;
+        list-style: none;
+        font-size: 4rem;
         transition: height 0.1s, width 0.1s;
-        margin: 1rem;
-      }
+        text-decoration: none;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        }    
 
-      // Menú de navegación
-
-  .barraMenu {
-    height:3rem; 
-    background-color:$color-secundario;
-    display: flex;
-    display: inline;
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 4rem;
-   
-    .colorNav{
-      background-color:$color-secundario;
-      color: #000;
-      font-size: 1.6rem;
-      margin-right: 1rem;
-     }  
+      .whatsApp{    
+        text-decoration: none;
+        filter:none;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 1.5rem;
+        margin-right: 6rem;
+        position: fixed;
+        list-style: none;
+        display: inline;
+        }          
+     }
+    }
   }
-}
+
+   
+
+   
+
+
+  
 
 
 

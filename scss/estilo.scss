@@ -9,21 +9,14 @@ html{
   font-size: 62.5%;
 }
 
-@import "variables";
-
-body {
-  background-color: $color-principal;
-
-  .whatsApp{    
-    position: fixed;
-    text-decoration: none;
-    font-size: 4rem;
-    margin:1rem;
-  }
+.favicon {
+  filter: invert(62%) sepia(0%) saturate(7500%) hue-rotate(135deg) brightness(118%) contrast(70%);
 }
 
-.darkGray {
-  color: darkgray;
+@import "variables";
+
+.tipografia {
+  color: $color-secundario;
   font-family: $tipo-de-fuente;
   font-size: $tamano-fuente;
   font-weight: bold;
@@ -32,13 +25,22 @@ body {
   text-decoration: none;
 }
 
+.logoBox {
+  // width: 7rem;
+  filter: invert(80%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(107%) contrast(92%);
+  list-style-type: none;
+  display: inline-block;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin:0;
+  font-size: 4rem;
+
+  &:hover {
+  color: $color-secundario;
+  }
+}
+
 @import "header";
 @import "main";
 @import "footer";
-@import "extend";
-@import "mixin";
-
-.favicon {
-  filter: invert(62%) sepia(0%) saturate(7500%) hue-rotate(135deg) brightness(118%) contrast(70%);
-}
-

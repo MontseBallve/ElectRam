@@ -1,69 +1,72 @@
+
 main{
-  height: 33%;
+  background-color: $color-principal;
 }
 
 // Main Inicio
 
 .carrusel {
+  top: 3rem;
   height: 35rem;
   object-fit: cover;
   }
 
-  .box {
-    background-color:#797D7F;  
-    border: 4px; 
-    color: black ; 
-    font-weight: lighter;
-    border-style: double;
-    margin: 10px;
-    padding: 20px;
-    order: 3;
-    display: inline-block;
-    font-size: $tamano-fuente;
-  }
+.box {
+  background-color:$color-secundario;  
+  border: 4px; 
+  color: black ; 
+  font-weight: lighter;
+  border-style: double;
+  margin: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 2rem;
+  display: inline-block;
+  font-size: $tamano-fuente;
+}
 
-  // Main Productos
+ // Main Productos
 
-  .titleBoxes {
-    padding: auto;
-    margin: auto;
-    margin: 4rem;
-  }
-  
-  .padreProductos {
-    display: inline-block;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
-  .producto {
-    margin: 2rem;
-    padding: 2rem;
-    background-color: #CACFD2;
-    width: 30rem;
-    height: 40rem;
-    color: #000;
-    border: #000, 1px, solid;
-    font-size: 12px;
-    text-align: left;
-  }
+ .titleBoxes {
+  padding: auto;
+  margin: auto;
+  margin: 4rem;
+}
 
-  // Main Webinars
+.padreProductos {
+  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
-  .cajasWebinars{
-    margin: 2rem;
-    padding: 5rem;
-    background-color:#CACFD2;
-    width: 40rem;
-    height: 30rem;
-    color: #000;
-    border:#000, 1px, solid; 
-    font-size: 12px;
-    text-align: left; 
-  }
+.producto {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #CACFD2;
+  width: 30rem;
+  height: 40rem;
+  color: #000;
+  border: #000, 1px, solid;
+  font-size: 12px;
+  text-align: left;
+} 
+
+// Main Webinars
+
+.cajasWebinars{
+  margin: 2rem;
+  padding: 5rem;
+  background-color:#CACFD2;
+  width: 40rem;
+  height: 30rem;
+  color: #000;
+  border:#000, 1px, solid; 
+  font-size: 12px;
+  text-align: left; 
+}
 
  
   // Main Contacto
