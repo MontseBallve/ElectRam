@@ -3,6 +3,15 @@ main{
   background-color: $color-principal;
 }
 
+.titleBoxes {
+  padding: 2rem;
+  height:3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  display: block;
+}
+
 // Main Inicio
 
 .carrusel {
@@ -18,21 +27,17 @@ main{
   color: black ; 
   font-weight: lighter;
   border-style: double;
-  margin: 5rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin: 2rem;
   padding: 2rem;
   display: inline-block;
   font-size: $tamano-fuente;
 }
 
- // Main Productos
-
- .titleBoxes {
-  padding: auto;
-  margin: auto;
-  // margin: 4rem;
+.hTres{
+  text-align: left;
 }
+
+ // Main Productos
 
 .padreProductos {
   display: inline-block;
@@ -69,8 +74,37 @@ main{
   text-align: left; 
 }
 
+// Main Ubicación
+
+.centrado{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  top:0;
+  bottom: 0;
+  left:0;
+  right:0;
+  margin: auto;
+}
+
+.parrafo{
+  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  height:3rem;
+  font-size: 1.6rem;
+  font-weight:lighter;
+  display: flex;
+  display: block;
+}
+
  
   // Main Contacto
+
+  .mainContacto{
+    height: 35rem;
+  }
 
   .padreContacto {
     display: inline-block;
@@ -90,14 +124,6 @@ main{
     font-size: 1.5rem;
     position: relative;
     top: 3rem;
-  }
-  
-  .centrado {
-    display: flex;
-    justify-content: center;
-    margin-bottom: auto;
-    margin-top: 1rem;
-    font-size: 2rem;
   }
   
   .itemContacto {

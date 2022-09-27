@@ -4,6 +4,10 @@
 background-color: darkslategray;
 width: 100%;
 
+.colorMenu{
+  background-color: $color-secundario;
+}
+
 .colorNav{
 color:darkslategray;
 font-size: 1.6rem;
@@ -102,7 +106,6 @@ padding: 0.5rem;
           h2 {font-size: 0.5rem;
               font-weight: lighter;}
         }
-
     }
   }
   .iconosWAyChango{
@@ -115,7 +118,7 @@ padding: 0.5rem;
     
      .chango{
       color:$color-secundario;
-      font-size: 4rem;
+      font-size: 3rem;
       transition: height 0.1s, width 0.1s;
       margin-top: 4rem;
       margin-bottom: 3rem;
@@ -132,28 +135,27 @@ padding: 0.5rem;
         margin-right: 1rem;
        }
       } 
-
-    .whatsApp{    
-      filter:none;
-      font-size: 4rem;
-      margin-top: 4rem;
-      margin-bottom: 3rem;
-      margin-left: 1.5rem;
-      margin-right: 3rem;
-      // position: fixed;
-
-      &:hover {
-        padding: 1.5rem;
-      } 
-      
-      @media (max-width: 640px){
-        margin-left: 1rem;
-        margin-right: 1.5rem;
-       }
-
-    }   
       
   }
+
+  .whatsApp{    
+    filter:none;
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+    position: fixed;
+
+    &:hover {
+      padding: 1.5rem;
+    } 
+    
+    @media (max-width: 640px){
+      margin-left: 1rem;
+      margin-right: 1.5rem;
+     }
+  }   
    
 
    
