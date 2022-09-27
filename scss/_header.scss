@@ -16,96 +16,97 @@ padding: 0.5rem;
 }
 
 }
-  .padreHeader {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: $color-secundario, 5rem, solid;
-    list-style: none;
-    font-size: 4rem;
+
+.padreHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: $color-secundario, 5rem, solid;
+  list-style: none;
+  font-size: 4rem;
 
 // Logo y Título los junté como un ítem en una misma clase para que padreHEader los pudiera ubicar a la izquierda del Header con Flex (y separados de los íconos del changuito y el logo de WhatsApp). A su vez, el logo y el título los úbiqué uno al lado del otro, también con Flex.
 
-    .logoyTitulo{
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      align-items: flex-start;
-      font-size: 4rem;
+ .logoyTitulo{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 4rem;
 
-      .logoElektram{
-        color:$color-secundario;
-        font-size: 7rem;
-        transition: height 0.1s, width 0.1s;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        margin-left: 1.5rem;
-        margin-right: 0;
+  .logoElektram{
+    color:$color-secundario;
+    font-size: 7rem;
+    transition: height 0.1s, width 0.1s;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 0;
 
-        &:hover {
-          color:$color-secundario;
-          margin: 1.5rem;
-        } 
-        
-        @media (max-width: 640px){
-        font-size: 6rem;
-        margin-top: 3rem;
-        }
-        }
-  
-      // Dentro de la clase .logoyTitulo tuve que hacer una de .tituloYSubtitulo para acomodar el h1 y h2, uno arriba del otro.
-
-      .tituloYSubtitulo {
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        color: $color-secundario;
-        margin: 0;
-        margin-top: 3.5rem;
-        display: inline-block;
-  
-        h1{
-          font-size: 3rem;
-          margin-bottom: 0%;
-        }
+    &:hover {
+      color:$color-secundario;
+      margin: 1.5rem;
+    } 
     
-        h2{
-          font-size: 2rem;
-          margin-top: 0%;
-        }
-        }
+    @media (max-width: 640px){
+    font-size: 6rem;
+    margin-top: 3rem;
+    }
+  }
   
-        .hUnoText, .hDosText {
-          font-weight: bold;
-          position: relative;    
-          text-decoration: none;
-          color: $color-secundario;
-          
-          a:link{
-            color: $color-secundario;
-          }
-      
-          a:visited{
-            color: $color-secundario;
-          }
-      
-          &:hover {
-            color: $color-secundario;
-            padding: 1.5rem;
-          }
-        }
+// Dentro de la clase .logoyTitulo tuve que hacer una de .tituloYSubtitulo para acomodar el h1 y h2, uno arriba del otro.
+
+.tituloYSubtitulo {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  color: $color-secundario;
+  margin: 0;
+  margin-top: 3.5rem;
+  display: inline-block;
+
+  h1{
+    font-size: 3rem;
+    margin-bottom: 0%;
+  }
+
+  h2{
+    font-size: 2rem;
+    margin-top: 0%;
+  }
+  }
+
+  .hUnoText, .hDosText {
+    font-weight: bold;
+    position: relative;    
+    text-decoration: none;
+    color: $color-secundario;
+    
+    a:link{
+      color: $color-secundario;
+    }
+
+    a:visited{
+      color: $color-secundario;
+    }
+
+    &:hover {
+      color: $color-secundario;
+      padding: 1.5rem;
+    }
+  }
   
 // El subtítulo se me rompía en el tamaño celular, así que tuve que eliminarlo con la media query
 
-        @media (max-width: 640px){
-          h1 {margin:0;
-              padding:0;
-              font-size: 1rem;
-              font-weight: lighter;
-            } 
-          h2 {font-size: 0.5rem;
-              font-weight: lighter;}
-        }
+@media (max-width: 640px){
+  h1 {margin:0;
+      padding:0;
+      font-size: 1rem;
+      font-weight: lighter;
+    } 
+  h2 {font-size: 0.5rem;
+      font-weight: lighter;}   
+      }
     }
   }
   .iconosWAyChango{
@@ -145,7 +146,7 @@ padding: 0.5rem;
     margin-bottom: 3rem;
     margin-left: 1.5rem;
     margin-right: 3rem;
-    position: fixed;
+    // position: fixed;
 
     &:hover {
       padding: 1.5rem;

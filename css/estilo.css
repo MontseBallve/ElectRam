@@ -123,8 +123,7 @@ html {
   margin-top: 4rem;
   margin-bottom: 3rem;
   margin-left: 1.5rem;
-  margin-right: 3rem;
-  position: fixed; }
+  margin-right: 3rem; }
   .whatsApp:hover {
     padding: 1.5rem; }
   @media (max-width: 640px) {
