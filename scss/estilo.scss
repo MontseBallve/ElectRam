@@ -9,11 +9,12 @@ html{
   font-size: 62.5%;
 }
 
+@import "variables";
+
 .favicon {
   filter: invert(62%) sepia(0%) saturate(7500%) hue-rotate(135deg) brightness(118%) contrast(70%);
+  color: $color-secundario;
 }
-
-@import "variables";
 
 .tipografia {
   color: $color-secundario;
@@ -23,22 +24,6 @@ html{
   line-height: 1.5rem;
   text-align: justify;
   text-decoration: none;
-}
-
-.logoBox {
-  // width: 7rem;
-  filter: invert(80%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(107%) contrast(92%);
-  list-style-type: none;
-  display: inline-block;
-  display: flex;
-  justify-content: flex-end;
-  padding: 0;
-  margin:0;
-  font-size: 4rem;
-
-  &:hover {
-  color: $color-secundario;
-  }
 }
 
 @import "header";

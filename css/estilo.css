@@ -8,7 +8,8 @@ html {
   font-size: 62.5%; }
 
 .favicon {
-  filter: invert(62%) sepia(0%) saturate(7500%) hue-rotate(135deg) brightness(118%) contrast(70%); }
+  filter: invert(62%) sepia(0%) saturate(7500%) hue-rotate(135deg) brightness(118%) contrast(70%);
+  color: #D3D3D3; }
 
 .tipografia {
   color: #D3D3D3;
@@ -19,33 +20,14 @@ html {
   text-align: justify;
   text-decoration: none; }
 
-.logoBox {
-  filter: invert(80%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(107%) contrast(92%);
-  list-style-type: none;
-  display: inline-block;
-  display: flex;
-  justify-content: flex-end;
-  padding: 0;
-  margin: 0;
-  font-size: 4rem; }
-  .logoBox:hover {
-    color: #D3D3D3; }
-
 .encabezado {
-  height: 12.5rem;
   background-color: darkslategray;
   width: 100%; }
-  .encabezado .barraMenu {
-    height: 3rem;
-    width: 100%;
-    bottom: 0.5rem;
-    background-color: #D3D3D3;
-    display: flex;
-    display: inline;
-    color: #000;
+  .encabezado .colorNav {
+    color: darkslategray;
     font-size: 1.6rem;
     margin: 0;
-    padding: 0; }
+    padding: 0.5rem; }
 
 .padreHeader {
   display: flex;
@@ -60,21 +42,33 @@ html {
     justify-content: flex-start;
     align-items: flex-start;
     font-size: 4rem; }
-    .padreHeader .logoyTitulo .firstPlace {
-      margin: 0;
-      padding: 0; }
-    .padreHeader .logoyTitulo .secondPlace {
+    .padreHeader .logoyTitulo .logoElektram {
+      color: #D3D3D3;
+      font-size: 7rem;
+      transition: height 0.1s, width 0.1s;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      margin-left: 1.5rem;
+      margin-right: 0; }
+      .padreHeader .logoyTitulo .logoElektram:hover {
+        color: #D3D3D3;
+        margin: 1.5rem; }
+      @media (max-width: 640px) {
+        .padreHeader .logoyTitulo .logoElektram {
+          font-size: 6rem;
+          margin-top: 3rem; } }
+    .padreHeader .logoyTitulo .tituloYSubtitulo {
       display: flex;
       flex-direction: column;
       list-style: none;
       color: #D3D3D3;
       margin: 0;
-      margin-top: 3rem;
+      margin-top: 3.5rem;
       display: inline-block; }
-      .padreHeader .logoyTitulo .secondPlace h1 {
+      .padreHeader .logoyTitulo .tituloYSubtitulo h1 {
         font-size: 3rem;
         margin-bottom: 0%; }
-      .padreHeader .logoyTitulo .secondPlace h2 {
+      .padreHeader .logoyTitulo .tituloYSubtitulo h2 {
         font-size: 2rem;
         margin-top: 0%; }
     .padreHeader .logoyTitulo .hUnoText, .padreHeader .logoyTitulo .hDosText {
@@ -91,48 +85,57 @@ html {
         padding: 1.5rem; }
     @media (max-width: 640px) {
       .padreHeader .logoyTitulo h1 {
-        margin: 4rem; }
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+        font-weight: lighter; }
       .padreHeader .logoyTitulo h2 {
-        display: none; } }
-    .padreHeader .logoyTitulo .iconosWAyChango {
-      list-style: none;
-      text-decoration: none;
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      align-items: flex-start; }
-      .padreHeader .logoyTitulo .iconosWAyChango .chango {
-        filter: invert(80%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(107%) contrast(92%);
-        color: #D3D3D3;
-        display: inline;
-        text-decoration: none;
-        list-style: none;
-        font-size: 4rem;
-        transition: height 0.1s, width 0.1s;
-        text-decoration: none;
-        text-align: center;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem; }
-      .padreHeader .logoyTitulo .iconosWAyChango .whatsApp {
-        text-decoration: none;
-        filter: none;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        margin-left: 1.5rem;
-        margin-right: 6rem;
-        position: fixed;
-        list-style: none;
-        display: inline; }
+        font-size: 0.5rem;
+        font-weight: lighter; } }
+
+.iconosWAyChango {
+  list-style: none;
+  text-decoration: none;
+  display: block;
+  display: flex;
+  justify-content: flex-start; }
+  .iconosWAyChango .chango {
+    color: #D3D3D3;
+    font-size: 4rem;
+    transition: height 0.1s, width 0.1s;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem; }
+    .iconosWAyChango .chango:hover {
+      color: #D3D3D3;
+      padding: 1.5rem; }
+    @media (max-width: 640px) {
+      .iconosWAyChango .chango {
+        margin-left: 0;
+        margin-right: 1rem; } }
+  .iconosWAyChango .whatsApp {
+    filter: none;
+    font-size: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 3rem; }
+    .iconosWAyChango .whatsApp:hover {
+      padding: 1.5rem; }
+    @media (max-width: 640px) {
+      .iconosWAyChango .whatsApp {
+        margin-left: 1rem;
+        margin-right: 1.5rem; } }
 
 main {
   background-color: #17202A; }
 
 .carrusel {
-  top: 3rem;
   height: 35rem;
-  object-fit: cover; }
+  object-fit: cover;
+  background-color: #D3D3D3;
+  z-index: 1; }
 
 .box {
   background-color: #D3D3D3;
@@ -149,8 +152,7 @@ main {
 
 .titleBoxes {
   padding: auto;
-  margin: auto;
-  margin: 4rem; }
+  margin: auto; }
 
 .padreProductos {
   display: inline-block;
@@ -193,8 +195,6 @@ main {
   width: 40rem;
   padding: auto;
   margin: auto;
-  margin-top: 2rem;
-  margin-bottom: 10rem;
   border-radius: 4px;
   font-family: 'Electrolize', sans-serif;
   color: white;
@@ -233,7 +233,6 @@ main {
     padding: 1.5rem; }
 
 footer {
-  border-top: #D3D3D3, 1px, solid;
   background-color: #17202A; }
 
 .redesSociales {
@@ -241,17 +240,15 @@ footer {
   display: flex;
   justify-content: flex-start;
   color: #D3D3D3; }
-
-.socialNetworks {
-  text-decoration: none;
-  text-align: center;
-  font-size: 4rem;
-  color: #D3D3D3;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  transition: height 0.1s, width 0.1s; }
-  .socialNetworks:hover {
-    padding: 1.5rem;
-    color: #D3D3D3; }
+  .redesSociales .socialNetworks {
+    text-decoration: none;
+    font-size: 4rem;
+    color: #D3D3D3;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    transition: height 0.1s, width 0.1s; }
+    .redesSociales .socialNetworks:hover {
+      padding: 1.5rem;
+      color: #D3D3D3; }

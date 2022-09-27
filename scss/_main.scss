@@ -6,9 +6,10 @@ main{
 // Main Inicio
 
 .carrusel {
-  top: 3rem;
   height: 35rem;
   object-fit: cover;
+  background-color: $color-secundario;
+  z-index: 1;
   }
 
 .box {
@@ -30,7 +31,7 @@ main{
  .titleBoxes {
   padding: auto;
   margin: auto;
-  margin: 4rem;
+  // margin: 4rem;
 }
 
 .padreProductos {
@@ -82,8 +83,6 @@ main{
     width: 40rem;
     padding: auto;
     margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 10rem;
     border-radius: 4px;
     font-family: 'Electrolize', sans-serif;
     color: white;

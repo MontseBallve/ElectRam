@@ -1,22 +1,16 @@
 //Header HTML
 
 .encabezado {
-height: 12.5rem;
 background-color: darkslategray;
 width: 100%;
 
-.barraMenu {
-  height:3rem; 
-  width: 100%;
-  bottom:0.5rem;
-  background-color:$color-secundario;
-  display: flex;
-  display: inline;
-  color: #000;
-  font-size: 1.6rem;
-  margin:0;
-  padding: 0;
+.colorNav{
+color:darkslategray;
+font-size: 1.6rem;
+margin:0;
+padding: 0.5rem;
 }
+
 }
   .padreHeader {
     display: flex;
@@ -26,6 +20,8 @@ width: 100%;
     list-style: none;
     font-size: 4rem;
 
+// Logo y Título los junté como un ítem en una misma clase para que padreHEader los pudiera ubicar a la izquierda del Header con Flex (y separados de los íconos del changuito y el logo de WhatsApp). A su vez, el logo y el título los úbiqué uno al lado del otro, también con Flex.
+
     .logoyTitulo{
       display: flex;
       flex-direction: row;
@@ -33,18 +29,35 @@ width: 100%;
       align-items: flex-start;
       font-size: 4rem;
 
-      .firstPlace{
-        margin: 0;
-        padding: 0;
-      }
+      .logoElektram{
+        color:$color-secundario;
+        font-size: 7rem;
+        transition: height 0.1s, width 0.1s;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 1.5rem;
+        margin-right: 0;
+
+        &:hover {
+          color:$color-secundario;
+          margin: 1.5rem;
+        } 
+        
+        @media (max-width: 640px){
+        font-size: 6rem;
+        margin-top: 3rem;
+        }
+        }
   
-      .secondPlace {
+      // Dentro de la clase .logoyTitulo tuve que hacer una de .tituloYSubtitulo para acomodar el h1 y h2, uno arriba del otro.
+
+      .tituloYSubtitulo {
         display: flex;
         flex-direction: column;
         list-style: none;
         color: $color-secundario;
         margin: 0;
-        margin-top: 3rem;
+        margin-top: 3.5rem;
         display: inline-block;
   
         h1{
@@ -78,49 +91,70 @@ width: 100%;
           }
         }
   
+// El subtítulo se me rompía en el tamaño celular, así que tuve que eliminarlo con la media query
+
         @media (max-width: 640px){
-          h1 {margin:4rem}
-          h2 {display: none;}
+          h1 {margin:0;
+              padding:0;
+              font-size: 1rem;
+              font-weight: lighter;
+            } 
+          h2 {font-size: 0.5rem;
+              font-weight: lighter;}
         }
 
-    .iconosWAyChango{
-      list-style: none;
-      text-decoration: none;
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      align-items: flex-start;
-      
-       .chango{
-        filter: invert(80%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(107%) contrast(92%);
-        color:$color-secundario;
-        display: inline;
-        text-decoration: none;
-        list-style: none;
-        font-size: 4rem;
-        transition: height 0.1s, width 0.1s;
-        text-decoration: none;
-        text-align: center;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        }    
-
-      .whatsApp{    
-        text-decoration: none;
-        filter:none;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        margin-left: 1.5rem;
-        margin-right: 6rem;
-        position: fixed;
-        list-style: none;
-        display: inline;
-        }          
-     }
     }
   }
+  .iconosWAyChango{
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+     .chango{
+      color:$color-secundario;
+      font-size: 4rem;
+      transition: height 0.1s, width 0.1s;
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+
+      &:hover {
+        color:$color-secundario;
+        padding: 1.5rem;
+      }  
+      
+      @media (max-width: 640px){
+        margin-left: 0;
+        margin-right: 1rem;
+       }
+      } 
+
+    .whatsApp{    
+      filter:none;
+      font-size: 4rem;
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+      margin-left: 1.5rem;
+      margin-right: 3rem;
+      // position: fixed;
+
+      &:hover {
+        padding: 1.5rem;
+      } 
+      
+      @media (max-width: 640px){
+        margin-left: 1rem;
+        margin-right: 1.5rem;
+       }
+
+    }   
+      
+  }
+   
 
    
 
