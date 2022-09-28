@@ -88,6 +88,13 @@ main{
   margin: auto;
 }
 
+.mediaquery{
+  @media (max-width: 640px){
+    width: 35rem;
+   }
+} 
+
+
 .parrafo{
   padding: 2rem;
   padding-top: 1rem;
