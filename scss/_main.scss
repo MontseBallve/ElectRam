@@ -4,7 +4,9 @@ main{
 }
 
 .titleBoxes {
-  padding: 2rem;
+  padding:2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   height:3rem;
   text-transform: uppercase;
   font-weight: bold;
@@ -74,6 +76,12 @@ main{
   text-align: left; 
 }
 
+.mediaQueryWebinars{
+  @media (max-width: 640px){
+    width: 20rem;
+   }
+} 
+
 // Main Ubicación
 
 .centrado{
@@ -88,7 +96,7 @@ main{
   margin: auto;
 }
 
-.mediaquery{
+.mediaQueryMapa{
   @media (max-width: 640px){
     width: 35rem;
    }

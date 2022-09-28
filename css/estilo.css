@@ -140,6 +140,8 @@ main {
 
 .titleBoxes {
   padding: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   height: 3rem;
   text-transform: uppercase;
   font-weight: bold;
@@ -196,6 +198,10 @@ main {
   font-size: 12px;
   text-align: left; }
 
+@media (max-width: 640px) {
+  .mediaQueryWebinars {
+    width: 20rem; } }
+
 .centrado {
   display: flex;
   flex-direction: column;
@@ -208,7 +214,7 @@ main {
   margin: auto; }
 
 @media (max-width: 640px) {
-  .mediaquery {
+  .mediaQueryMapa {
     width: 35rem; } }
 
 .parrafo {
