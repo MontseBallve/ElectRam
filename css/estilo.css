@@ -197,10 +197,9 @@ main {
   border: #000, 1px, solid;
   font-size: 12px;
   text-align: left; }
-
-@media (max-width: 640px) {
-  .mediaQueryWebinars {
-    width: 20rem; } }
+  @media (max-width: 640px) {
+    .cajasWebinars .mediaQueryWebinars {
+      width: 20rem; } }
 
 .centrado {
   display: flex;

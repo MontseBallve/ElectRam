@@ -74,13 +74,15 @@ main{
   border:#000, 1px, solid; 
   font-size: 12px;
   text-align: left; 
+
+  .mediaQueryWebinars{
+    @media (max-width: 640px){
+      width: 20rem;
+     }
+  } 
 }
 
-.mediaQueryWebinars{
-  @media (max-width: 640px){
-    width: 20rem;
-   }
-} 
+
 
 // Main Ubicación
 
