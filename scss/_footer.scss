@@ -2,6 +2,17 @@ footer{
   background-color: $color-principal;
 }
 
+.hCuatro{
+  padding:2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  height:3rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: flex;
+  display: block;
+}
+
 .redesSociales {
     list-style-type: none;
     display: flex;
@@ -11,6 +22,8 @@ footer{
     .socialNetworks {
       text-decoration: none;
       font-size: 4rem;
+      height: 4rem;
+      width: 4rem;
       color: $color-secundario;
       margin-top: 3rem;
       margin-bottom: 3rem;

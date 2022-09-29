@@ -278,6 +278,16 @@ main {
 footer {
   background-color: #17202A; }
 
+.hCuatro {
+  padding: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  height: 3rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: flex;
+  display: block; }
+
 .redesSociales {
   list-style-type: none;
   display: flex;
@@ -286,6 +296,8 @@ footer {
   .redesSociales .socialNetworks {
     text-decoration: none;
     font-size: 4rem;
+    height: 4rem;
+    width: 4rem;
     color: #D3D3D3;
     margin-top: 3rem;
     margin-bottom: 3rem;
